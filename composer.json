@@ -1,0 +1,15 @@
+{
+    "name": "riverrun46/algorithm-php",
+    "description": "PHP implementations of MIT 6.006",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "riverrun46",
+            "email": "river_run@126.com"
+        }
+    ]
+}
