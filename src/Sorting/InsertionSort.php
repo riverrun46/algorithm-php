@@ -2,7 +2,7 @@
 
 namespace Sorting;
 
-class InsertionSorter implements Sorter
+class InsertionSort implements Sort
 {
     public function sort(array $arr = []): array
     {

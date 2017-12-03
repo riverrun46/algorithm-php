@@ -2,7 +2,7 @@
 
 namespace Sorting;
 
-interface Sorter
+interface Sort
 {
     public function sort(array $arr): array;
 }
