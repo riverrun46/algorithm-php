@@ -16,9 +16,7 @@ class HeapSort implements Sort
         $heap = new MaxHeap($arr);
         for ($i = $length - 1; $i >= 1; $i--) {
             // exchange
-            $temp = $heap->get(0);
-            $heap->set(0, $heap->get($i));
-            $heap->set($i, $temp);
+            $heap->exchange(0, $i);
 
             // re-heapify
             $heap->setHeapSize($heap->getHeapSize() - 1);
